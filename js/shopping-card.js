@@ -121,7 +121,12 @@ submitButton.addEventListener("click", (event) => {
     event.preventDefault();
     arrayUser = [];
     for(let i = 0; i < listInputs.length; i++) {
-        objectInputs[listLabels[i].textContent] = listInputs[i].value;
+        if(listInputs[i].value !== "") {
+            objectInputs[listLabels[i].textContent] = listInputs[i].value;
+        }
+        else {
+            window.alert("You should fil in the field " + listLabels[i].textContent)
+        }
     }
 
     arrayUser.push(objectInputs);
