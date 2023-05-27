@@ -1,8 +1,8 @@
 # delivery-app-test
 delivery-app-test
-this delivery app is created according to the task of the test
-the main page is index.html
-to star working with this app
+This delivery app is created according to the task of the test. 
+the main page is index.html. 
+to start working with this app
 choose the shop in the block on the left side
 after clicking on required button other buttons become disabled
 to make them active again (to change a shop) do dblclick on active button
